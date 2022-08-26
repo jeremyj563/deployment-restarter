@@ -22,6 +22,8 @@ rules:
   - apps
   resources:
   - deployments
+  resourceNames:
+  - <deployment-name>
   verbs:
   - patch
 ```
