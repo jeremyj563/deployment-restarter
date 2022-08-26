@@ -1,4 +1,5 @@
-# davenportiowa/deployment-restarter:latest
+# docker build . -t davenportiowa/deployment-restarter:latest
+# docker push davenportiowa/deployment-restarter:latest
 
 FROM alpine/curl:latest
 LABEL Author Jeremy Johnson <jeremy.m.johnson@davenportiowa.com>
