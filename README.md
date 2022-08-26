@@ -6,7 +6,7 @@ A simple docker image for automating deployment restarts from within a Kubernete
 ## Description
 - Requires `ServiceAccount/default` to have access to `patch` the target `Deployment`
 - When creating the container you must be sure to set the `NAMESPACE` and `DEPLOYMENT` environment variables
-- Can be used with ArgoCD if desired
+- Can be used as an [ArgoCD Resource Hook](https://argo-cd.readthedocs.io/en/stable/user-guide/resource_hooks/) if desired
 
 ## Example
 ```yaml
