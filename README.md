@@ -50,7 +50,7 @@ subjects:
 apiVersion: batch/v1
 kind: Job
 metadata:
-  generateName: <deployment-name>-deployment-restarter-
+  generateName: <deployment-name>-restart-
   namespace: <namespace>
   annotations:
     argocd.argoproj.io/hook: PostSync
